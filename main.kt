@@ -1,13 +1,11 @@
+
+ // ae_2026_nombre_apellido_clase_4 main.kt
+// estructura del commit clase_4 ({valor incremental})
 fun main() {
-    var mensaje: String = "Hola mundo"
-    var variableMutable: Int = 5
-    println(mensaje)
-    println(variableMutable)
+    val name: String = "Ana"
+    val email: String = "ana@gmail.com"
+    // Ana - ana@gmail.com
     
-    variableMutable = 10
-    println(variableMutable)
-    
-    mensaje = "hola mundo mutado"
-	println(mensaje)
-    
- }
+    println(name + " - " + email)
+    println("$name - $email")
+}
