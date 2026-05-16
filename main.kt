@@ -1,11 +1,17 @@
-
- // ae_2026_nombre_apellido_clase_4 main.kt
-// estructura del commit clase_4 ({valor incremental})
 fun main() {
-    val name: String = "Ana"
-    val email: String = "ana@gmail.com"
-    // Ana - ana@gmail.com
+    val grade: Int = 85 
     
-    println(name + " - " + email)
-    println("$name - $email")
-}
+    if (grade > 70){
+        println("aprobado")
+    } else {
+        println("reprobado")
+    }
+    
+    val result: String = if (grade > 70) {
+        "Aprobado"
+    } else {
+        "Reprobado"
+    }
+	println(result)
+
+    }
