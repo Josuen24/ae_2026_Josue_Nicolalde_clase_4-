@@ -58,7 +58,7 @@ fun main() {
 
     println("Estudiantes estudiosos:")
     val estudiantesEstudiosos2: List<Student> = getStudents().filter { loQueSea ->
-    	loQueSea.grade > 7
+    	loQueSea > 7
     }
     println(estudiantesEstudiosos2)
 
